@@ -1,0 +1,18 @@
+{
+  WindowHeight = 1080
+  NewUpdateSoundRevisionViewed = 35966
+  LastRoadmapRevisionViewed = 35966
+  MusicVolume = 0.000000
+  DisplayIndex = 0
+  ValidCheckpoint = false
+  LastPatchNoteRevisionViewed = 35966
+  ScreenshotCount = 6
+  ControlsResetRevisionViewed = 35966
+  Y = 1080
+  X = 1920
+  DefaultControlsChosen = true
+  WindowY = 0
+  WindowX = 0
+  WindowWidth = 1920
+  UseGamepadGlyphs = true
+}

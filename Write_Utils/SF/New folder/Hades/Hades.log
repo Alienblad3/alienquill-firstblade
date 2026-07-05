@@ -1,0 +1,984 @@
+date       time     [thread name/id ]                   file:line    v |
+2025-07-20 15:52:41 [MainThread     ]                log.cpp:279   INFO| Opened log file Hades.log
+2025-07-20 15:52:41 [MainThread     ]            program.cpp:1304   DBG| Previous stack guard size was 0 bytes
+2025-07-20 15:52:41 [MainThread     ]    platformservice.cpp:386    DBG| Processor Count : 16
+2025-07-20 15:52:41 [MainThread     ]            program.cpp:1459   DBG| TotalRam: 17007570944
+2025-07-20 15:52:41 [MainThread     ]            program.cpp:1460   DBG| Running Hades in 64-bit
+2025-07-20 15:52:41 [MainThread     ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: activeProfile
+2025-07-20 15:52:41 [MainThread     ]     binaryloaddata.cpp:11    INFO| Reading 16 bytes
+2025-07-20 15:52:41 [MainThread     ]     profilemanager.cpp:40    INFO| Loading default profile C:\Users\sanja\OneDrive\Documents\Saved Games\Hades Profile1
+2025-07-20 15:52:41 [MainThread     ]     profilemanager.cpp:182   INFO| ProfileManager::Load(): Profile1.sjson 
+2025-07-20 15:52:41 [MainThread     ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1.sjson
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowHeight = 1080
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: NewUpdateSoundRevisionViewed = 35966
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: LastRoadmapRevisionViewed = 35966
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1406  INFO| ConfigOption: MusicVolume = 0.000000
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: DisplayIndex = 0
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: LastPatchNoteRevisionViewed = 35966
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: ScreenshotCount = 6
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: ControlsResetRevisionViewed = 35966
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: Y = 1080
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: X = 1920
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1385  INFO| ConfigOption: DefaultControlsChosen = true
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowY = 0
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowX = 0
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowWidth = 1920
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1385  INFO| ConfigOption: UseGamepadGlyphs = true
+2025-07-20 15:52:41 [MainThread     ]     profilemanager.cpp:202   INFO| Load profile successful
+2025-07-20 15:52:41 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: C:\Users\sanja\OneDrive\Documents\Saved Games\Hades\DESKTOP-5BOBDIO.sjson -- rb (error: No such file or directory)
+2025-07-20 15:52:41 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\ConfigOptions\DESKTOP-5BOBDIO.sjson -- rb (error: No such file or directory)
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: NextUpdateDate = NextUpdateCountdownCustom
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: LastUpdateDate = 07-03-2020
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: UpdateWarningDate = 11-01-2020
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: SaveCollectionBeginDate = 06-23-2020
+2025-07-20 15:52:41 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: SaveCollectionEndDate = 06-29-2020
+2025-07-20 15:52:41 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 16 bytes
+2025-07-20 15:52:41 [MainThread     ]            program.cpp:1513   DBG| Initial startup in 0.0 msec
+2025-07-20 15:52:41 [MainThread     ]            program.cpp:1514   DBG| Profile load in 0.0 msec
+2025-07-20 15:52:41 [MainThread     ]        windowsbase.cpp:632   INFO| Created window app Hades
+2025-07-20 15:52:41 [MainThread     ]          sdlwindow.cpp:26     DBG| SDL Initialized with UseNativeGaInputNoControllers
+2025-07-20 15:52:41 [MainThread     ]         resolution.cpp:122    DBG| Monitor modes:
+2025-07-20 15:52:41 [MainThread     ]     inputsystemsdl.cpp:738    DBG| InputSystemSDL Initialized with UseNativeGaInputNoControllers
+2025-07-20 15:52:41 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\gamecontrollerdb.txt -- rb (error: No such file or directory)
+2025-07-20 15:52:41 [MainThread     ]            gamepad.cpp:175   INFO| Gamepad added: Index = 1, Name = XInput Controller, GUID = 030000005e0400008e02000000007801
+2025-07-20 15:52:42 [MainThread     ]         filesystem.cpp:306    ERR| Trying to get an unset resource directory '8', make sure the resourceDirectory is set on start of the application
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:965   INFO| GPU[0] detected. Vendor ID: 10de, Model ID: 1f99, Revision ID: a1, Preset: low, GPU Name: NVIDIA GeForce GTX 1650
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:158   INFO| ----Begin printing all graphics adapters available on the system----
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:127   INFO| Adapter Name: Intel(R) UHD Graphics
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:136   INFO| Driver Version: 30.0.100.9805
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:145   INFO| Driver Date: 7-23-2021
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:127   INFO| Adapter Name: NVIDIA GeForce GTX 1650
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:136   INFO| Driver Version: 32.0.15.7688
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:145   INFO| Driver Date: 6-24-2025
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:160   INFO| ----Finish printing all graphics adapters available on the system----
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:989   INFO| GPU[0] is selected as default GPU
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:990   INFO| Name of selected gpu: NVIDIA GeForce GTX 1650
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:991   INFO| Vendor id of selected gpu: 0x10de
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:992   INFO| Model id of selected gpu: 0x1f99
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:993   INFO| Revision id of selected gpu: 0xa1
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:994   INFO| Preset of selected gpu: low
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:127   INFO| Adapter Name: NVIDIA GeForce GTX 1650
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:136   INFO| Driver Version: 32.0.15.7688
+2025-07-20 15:52:42 [MainThread     ]      gpudetecthelper.h:145   INFO| Driver Date: 6-24-2025
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:1464  INFO| Swapchain creation SUCCEEDED with SwapEffect 0
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:150   INFO| Starting app: Release 35966
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:167    DBG| Pool logging: 1
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:35     DBG| ____________________________________CalculateViewportForAspectRatio __________________
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:36     DBG| Target Aspect Ratio :1.777778
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:37     DBG| Screen width: 1920 height: 1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:38     DBG| keepAspectRatio: 1
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:42     DBG| actualAspectRatio :1.777778
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:46     DBG| height for letterBoxing  :1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:49     DBG| LetterBoxing  :0
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:69     DBG| ____________________________________CalculateViewportForAspectRatio __________________
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:87     DBG| ____________________________________Resolution::Resize __________________
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:88     DBG| VIEWPORT: X: 0  Y: 0 W: 1920 H: 1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:89     DBG| SCALE: X: 1.000000 Y: 1.000000
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:90     DBG| FULL_VIEWPORT: X: 0  Y: 0 W: 1920 H: 1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:91     DBG| ____________________________________Resolution::Resize__________________
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:174    DBG| Initializing graphics device: 1920x1080
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:181    DBG| Setting fullscreen: true
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:211    DBG| Create components
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:232    DBG| Full screen bloom
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:236    DBG| Frame rate counter
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:242    DBG| Done with constructor
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:245    DBG| Setting RandomSeed: 240980116
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:414    DBG| App Initialize
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:425    DBG| numWorkers = 6
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]         direct3d11.cpp:2804  INFO| Descriptor (Sampler) : User specified Static Sampler
+2025-07-20 15:52:42 [MainThread     ]   gameassetmanager.cpp:516   INFO| Loading package: Launch.pkg
+2025-07-20 15:52:42 [MainThread     ]   gameassetmanager.cpp:546   INFO| Package Loaded: Launch
+2025-07-20 15:52:42 [MainThread     ]      screenmanager.cpp:112    DBG| Load Launch Pkg took 0.008531 seconds
+2025-07-20 15:52:42 [MainThread     ]   gameassetmanager.cpp:516   INFO| Loading package: Dev.pkg
+2025-07-20 15:52:42 [MainThread     ]   gameassetmanager.cpp:546   INFO| Package Loaded: Dev
+2025-07-20 15:52:42 [MainThread     ]      screenmanager.cpp:118    DBG| Dev Pkg took 0.071807 seconds
+2025-07-20 15:52:42 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Fonts\en\Fonts.remap -- rb (error: No such file or directory)
+2025-07-20 15:52:42 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Fonts\en\Fonts.remap -- rb (error: No such file or directory)
+2025-07-20 15:52:42 [MainThread     ]      screenmanager.cpp:125    DBG| Localization::Init() took 0.022320 seconds
+2025-07-20 15:52:42 [MainThread     ]             luaext.cpp:423   INFO| Lua interface destroyed
+2025-07-20 15:52:42 [NoName         ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1.ctrls
+2025-07-20 15:52:42 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 966 bytes
+2025-07-20 15:52:42 [MainThread     ]    gamedatamanager.cpp:355   INFO| Reading game data from Z:\Games\HADES\Content\Game
+2025-07-20 15:52:42 [MainThread     ]                app.cpp:331    DBG| App.resize 1920x1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:35     DBG| ____________________________________CalculateViewportForAspectRatio __________________
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:36     DBG| Target Aspect Ratio :1.777778
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:37     DBG| Screen width: 1920 height: 1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:38     DBG| keepAspectRatio: 1
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:42     DBG| actualAspectRatio :1.777778
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:46     DBG| height for letterBoxing  :1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:49     DBG| LetterBoxing  :0
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:69     DBG| ____________________________________CalculateViewportForAspectRatio __________________
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:87     DBG| ____________________________________Resolution::Resize __________________
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:88     DBG| VIEWPORT: X: 0  Y: 0 W: 1920 H: 1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:89     DBG| SCALE: X: 1.000000 Y: 1.000000
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:90     DBG| FULL_VIEWPORT: X: 0  Y: 0 W: 1920 H: 1080
+2025-07-20 15:52:42 [MainThread     ]         resolution.cpp:91     DBG| ____________________________________Resolution::Resize__________________
+2025-07-20 15:52:42 [MainThread     ]       launchscreen.cpp:135    DBG| new LaunchScreen
+2025-07-20 15:52:42 [NoName         ]       audiomanager.cpp:312    DBG| AudioManager.Initialize
+2025-07-20 15:52:42 [MainThread     ]            program.cpp:1901  INFO| Application Init+Load 1.157000
+2025-07-20 15:52:42 [MainThread     ]            program.cpp:1915   DBG| User Document Path found!!
+2025-07-20 15:52:42 [MainThread     ]            program.cpp:1929   DBG| Log file created
+2025-07-20 15:52:42 [MainThread     ]        windowsbase.cpp:1082  INFO| Application Init+Load 1.158000
+2025-07-20 15:52:42 [NoName         ]       audiomanager.cpp:372    DBG| FMOD Default Rate 48000 Mode 0 Speakers 0 Software Channels: 64
+2025-07-20 15:52:42 [NoName         ]       audiomanager.cpp:378    DBG| FMOD changed to Rate: 48000 Mode: 3 Speakers: 2 Software Channels: 64
+2025-07-20 15:52:42 [NoName         ]       launchscreen.cpp:62     DBG| Load Manifests took 0.121415
+2025-07-20 15:52:42 [NoName         ]       launchscreen.cpp:86     DBG| binkAtlases took 0.070673
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:431    DBG| FMOD post init Rate 48000 Mode 3 Speakers 2
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:636    DBG| Loading bank: MasterBank.bank
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:636    DBG| Loading bank: MasterBank.strings.bank
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:636    DBG| Loading bank: Ambience.bank
+2025-07-20 15:52:43 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: GUI.pkg
+2025-07-20 15:52:43 [NoName         ]       launchscreen.cpp:103    DBG| Load BasePackages took 0.127314
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:636    DBG| Loading bank: Music.bank
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:636    DBG| Loading bank: Sounds.bank
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:784    DBG| AudioManager categories loaded
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:451    DBG| AudioManager.FModStartup complete
+2025-07-20 15:52:43 [NoName         ]       audiomanager.cpp:322    DBG| AudioManager.Initialize complete
+2025-07-20 15:52:43 [NoName         ]       launchscreen.cpp:119    DBG| AudioManager::Initialize took 0.497880
+2025-07-20 15:52:44 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: GUI
+2025-07-20 15:52:44 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: GUI_Mouse.pkg
+2025-07-20 15:52:44 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: GUI_Mouse
+2025-07-20 15:52:44 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: Fx.pkg
+2025-07-20 15:52:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: Fx
+2025-07-20 15:52:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: RoomManager.pkg
+2025-07-20 15:52:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: RoomManager
+2025-07-20 15:52:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: UIScripts.pkg
+2025-07-20 15:52:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: UIScripts
+2025-07-20 15:52:46 [NoName         ]       launchscreen.cpp:105    DBG| Finished AssetManager Loading 
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:822   INFO| Reading game data from Z:\Games\HADES\Content\Game
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:836    DBG| ReadUnitData took 0.004850 seconds
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:905    DBG| ReadWeaponData took 0.014088 seconds
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:927    DBG| Projectile took 0.021027 seconds
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:942    DBG| ReadObstacleData took 0.036368 seconds
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:955    DBG| Other Dat took 0.002410 seconds
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 32202 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 128202 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 28362 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 2602 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 39882 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 19402 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 30922 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 32202 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 38602 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 38602 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 32202 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 38602 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 184559 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 69359 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 115439 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 19439 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 1401 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 8161 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 53961 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 36041 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 10441 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 33481 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 1401 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 3561 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 51401 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 61641 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 8761 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 6161 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 59721 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 52681 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 128201 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 224201 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 107721 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 56521 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 10441 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 3801 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 45436 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 1564 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 41596 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 30844 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 38524 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 23164 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 92284 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 32380 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 75940 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 101540 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 71844 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 119972 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 17572 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 24740 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 29860 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 50340 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 47771 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 107803 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 107803 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 107803 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 215323 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 183067 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 179483 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 55835 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 37915 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 54043 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 89883 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 111387 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 140059 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 55835 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 54043 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 215323 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 8795 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 236827 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 36123 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 89883 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 197403 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 45083 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 45083 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 54043 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 86299 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 136475 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 138267 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 186651 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 143643 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 161563 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 54043 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 57627 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 269083 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 304923 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 63003 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 204571 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 150811 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 134683 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 107803 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 27163 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 229659 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 28955 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 304923 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 236827 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 71963 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 122139 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 168295 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 118555 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 63003 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 134683 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 111387 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 63003 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 89883 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 107803 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 125723 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 154395 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 63003 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 63003 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 114971 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 111387 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 149915 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 89883 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 159323 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 116763 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 44187 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 22683 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 125723 bytes
+2025-07-20 15:52:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 18203 bytes
+2025-07-20 15:52:46 [NoName         ]    gamedatamanager.cpp:978    DBG| ReadAnimationData took 0.573700 seconds
+2025-07-20 15:52:47 [NoName         ]    gamedatamanager.cpp:983    DBG| ReadTextData took 0.071577 seconds
+2025-07-20 15:52:47 [NoName         ]    gamedatamanager.cpp:991    DBG| ReadGameData took 0.724277 seconds
+2025-07-20 15:52:47 [MainThread     ]       launchscreen.cpp:301    DBG| Done with boot load
+2025-07-20 15:52:47 [MainThread     ]           ingameui.cpp:43    INFO| InGameUI Construct
+2025-07-20 15:52:48 [MainThread     ]       launchscreen.cpp:658    DBG| Launch took 6.398730 seconds
+2025-07-20 15:52:49 [MainThread     ] remoteprofilescreen.cpp:578    DBG| ActiveProfile = Profile1
+2025-07-20 15:52:49 [MainThread     ] remoteprofilescreen.cpp:592    DBG| Profile1 == Profile1, ActiveProfile Index = 0
+2025-07-20 15:52:49 [MainThread     ] remoteprofilescreen.cpp:653    DBG| Finishing Creating Components For RemoteProfileScreen
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:69     DBG| SetupProfiles
+2025-07-20 15:52:49 [NoName         ]         platformfile.h:187    DBG| WindowsFile::DirectoryGetFiles(  C:\Users\sanja\OneDrive\Documents\Saved Games\Hades  ,  , *.sjson  )
+2025-07-20 15:52:49 [NoName         ]         platformfile.h:187    DBG| WindowsFile::DirectoryGetFiles(  C:\Users\sanja\OneDrive\Documents\Saved Games\Hades  ,  , *.xml  )
+2025-07-20 15:52:49 [NoName         ]         platformfile.h:187    DBG| WindowsFile::DirectoryGetFiles(  C:\Users\sanja\OneDrive\Documents\Saved Games\Hades  ,  , *.sav  )
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:76     DBG| Total saves :3
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:475    DBG| Getting Preferred Save
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:483    DBG| MainSaveInfo
+2025-07-20 15:52:49 [NoName         ]    progressmanager.cpp:562   INFO| ProgressManager.load Profile1.sav IPlatformSaveDevice
+2025-07-20 15:52:49 [NoName         ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1.sav
+2025-07-20 15:52:49 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 473118 bytes
+2025-07-20 15:52:49 [NoName         ]    progressmanager.cpp:601   INFO| Load succeeded
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:501    DBG| tempSaveInfo
+2025-07-20 15:52:49 [NoName         ]    progressmanager.cpp:562   INFO| ProgressManager.load Profile1_Temp.sav IPlatformSaveDevice
+2025-07-20 15:52:49 [NoName         ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1_Temp.sav
+2025-07-20 15:52:49 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 443155 bytes
+2025-07-20 15:52:49 [NoName         ]    progressmanager.cpp:601   INFO| Load succeeded
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:519    DBG| mainSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:526    DBG| tempSaveIndex >
+2025-07-20 15:52:49 [NoName         ]    progressmanager.cpp:562   INFO| ProgressManager.load Profile1.v.sav IPlatformSaveDevice
+2025-07-20 15:52:49 [NoName         ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1.v.sav
+2025-07-20 15:52:49 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 9 bytes
+2025-07-20 15:52:49 [NoName         ]    progressmanager.cpp:601   INFO| Load succeeded
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:88     DBG| localSaveFileName  :Profile1_Temp.sav
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:91     DBG| !saveFileName.empty()
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:95     DBG| mProfileButtons[i]->mDataValue :Profile1_Temp
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:475    DBG| Getting Preferred Save
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:483    DBG| MainSaveInfo
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:501    DBG| tempSaveInfo
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:519    DBG| mainSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:526    DBG| tempSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:551    DBG| mainSaveIndex >=0
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:88     DBG| localSaveFileName  :
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:475    DBG| Getting Preferred Save
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:483    DBG| MainSaveInfo
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:501    DBG| tempSaveInfo
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:519    DBG| mainSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:526    DBG| tempSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:551    DBG| mainSaveIndex >=0
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:88     DBG| localSaveFileName  :
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:475    DBG| Getting Preferred Save
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:483    DBG| MainSaveInfo
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:501    DBG| tempSaveInfo
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:519    DBG| mainSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:526    DBG| tempSaveIndex >
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:551    DBG| mainSaveIndex >=0
+2025-07-20 15:52:49 [NoName         ] remoteprofilescreen.cpp:88     DBG| localSaveFileName  :
+2025-07-20 15:52:49 [MainThread     ] remoteprofilescreen.cpp:712    DBG| Enter Profile Button
+2025-07-20 15:52:50 [MainThread     ] remoteprofilescreen.cpp:354    DBG| Enter StartOrContinueGame
+2025-07-20 15:52:50 [MainThread     ] remoteprofilescreen.cpp:374    DBG| loading CheckPoint
+2025-07-20 15:52:50 [MainThread     ] remoteprofilescreen.cpp:388    DBG| Exit StartOrContinueGame
+2025-07-20 15:52:50 [MainThread     ]    progressmanager.cpp:969   INFO| ProgressManager.load Profile1_Temp.sav IPlatformSaveDevice
+2025-07-20 15:52:50 [NoName         ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1_Temp.sav
+2025-07-20 15:52:50 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 443155 bytes
+2025-07-20 15:52:50 [MainThread     ]    progressmanager.cpp:1031  INFO| Load succeeded
+2025-07-20 15:52:50 [MainThread     ]                app.cpp:1431   DBG| App.Reset Start
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: CloudMarker
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: HardModeButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: DeleteButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: ProfileButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: CloudMarker
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: HardModeButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: DeleteButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: ProfileButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: CloudMarker
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: HardModeButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: DeleteButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: ProfileButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: CloudMarker
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: HardModeButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: DeleteButton
+2025-07-20 15:52:50 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: ProfileButton
+2025-07-20 15:52:50 [MainThread     ]             luaext.cpp:423   INFO| Lua interface destroyed
+2025-07-20 15:52:50 [MainThread     ]       audiomanager.cpp:155    DBG| AudioManager.reset
+2025-07-20 15:52:50 [MainThread     ]       audiomanager.cpp:3248   DBG| AudioManager.reset, excludeId = -1, fullWipe = true
+2025-07-20 15:52:50 [MainThread     ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: activeProfile
+2025-07-20 15:52:50 [MainThread     ]     binaryloaddata.cpp:11    INFO| Reading 16 bytes
+2025-07-20 15:52:50 [MainThread     ]     profilemanager.cpp:40    INFO| Loading default profile C:\Users\sanja\OneDrive\Documents\Saved Games\Hades Profile1
+2025-07-20 15:52:50 [MainThread     ]     profilemanager.cpp:182   INFO| ProfileManager::Load(): Profile1.sjson 
+2025-07-20 15:52:50 [MainThread     ]       pcsavedevice.cpp:95    INFO| Opening save file for reading: Profile1.sjson
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowHeight = 1080
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: NewUpdateSoundRevisionViewed = 35966
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: LastRoadmapRevisionViewed = 35966
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1406  INFO| ConfigOption: MusicVolume = 0.000000
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: DisplayIndex = 0
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: LastPatchNoteRevisionViewed = 35966
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: ScreenshotCount = 6
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: ControlsResetRevisionViewed = 35966
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: Y = 1080
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: X = 1920
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1385  INFO| ConfigOption: DefaultControlsChosen = true
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowY = 0
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowX = 0
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1392  INFO| ConfigOption: WindowWidth = 1920
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1385  INFO| ConfigOption: UseGamepadGlyphs = true
+2025-07-20 15:52:50 [MainThread     ]     profilemanager.cpp:202   INFO| Load profile successful
+2025-07-20 15:52:50 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: C:\Users\sanja\OneDrive\Documents\Saved Games\Hades\DESKTOP-5BOBDIO.sjson -- rb (error: No such file or directory)
+2025-07-20 15:52:50 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\ConfigOptions\DESKTOP-5BOBDIO.sjson -- rb (error: No such file or directory)
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: NextUpdateDate = NextUpdateCountdownCustom
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: LastUpdateDate = 07-03-2020
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: UpdateWarningDate = 11-01-2020
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: SaveCollectionBeginDate = 06-23-2020
+2025-07-20 15:52:50 [MainThread     ]      configoptions.cpp:1413  INFO| ConfigOption: SaveCollectionEndDate = 06-29-2020
+2025-07-20 15:52:50 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 16 bytes
+2025-07-20 15:52:50 [MainThread     ]                app.cpp:1482   DBG| App.Reset Finished
+2025-07-20 15:52:50 [MainThread     ]              world.cpp:1483  INFO| World::Begin()  -> D_Intro
+2025-07-20 15:52:50 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:52:50 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Intro
+2025-07-20 15:52:50 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:52:50 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 130192 bytes
+2025-07-20 15:52:50 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Intro
+2025-07-20 15:52:50 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.001989
+2025-07-20 15:52:50 [NoName         ]    progressmanager.cpp:892   INFO| ProgressManager::LoadLua 442153 -> 2200684 4.977200 : 0.015810 s
+2025-07-20 15:52:50 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:52:50 [NoName         ]              world.cpp:1354   DBG| load packages took 0.019136
+2025-07-20 15:52:50 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: Styx.pkg
+2025-07-20 15:52:50 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: Styx
+2025-07-20 15:52:51 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:52:51 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: AthenaUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: AthenaUpgrade
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: ZeusUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: ZeusUpgrade
+2025-07-20 15:52:51 [NoName         ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\HermesUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [NoName         ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\HermesUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [NoName         ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\StackUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [NoName         ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\StackUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: HermesUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\HermesUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\HermesUpgrade.pkg -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:405    ERR| Package load failed HermesUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: HermesUpgrade
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: AresUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: AresUpgrade
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: StackUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\StackUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\StackUpgrade.pkg -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:405    ERR| Package load failed StackUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: StackUpgrade
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: AphroditeUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: AphroditeUpgrade
+2025-07-20 15:52:51 [NoName         ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\WeaponUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [NoName         ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\WeaponUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: WeaponUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\WeaponUpgrade.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\WeaponUpgrade.pkg -- rb (error: No such file or directory)
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:405    ERR| Package load failed WeaponUpgrade.pkg
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: WeaponUpgrade
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: DemeterUpgrade.pkg
+2025-07-20 15:52:51 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:52:51 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: DemeterUpgrade
+2025-07-20 15:52:51 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:52:51 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:52:52 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\RushWeapon.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: RushWeapon.pkg
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\RushWeapon.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\RushWeapon.pkg -- rb (error: No such file or directory)
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:405    ERR| Package load failed RushWeapon.pkg
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: RushWeapon
+2025-07-20 15:52:52 [MainThread     ]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\RangedWeapon.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: RangedWeapon.pkg
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\RangedWeapon.pkg_manifest -- rb (error: No such file or directory)
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]  windowsfilesystem.cpp:209    ERR| Error opening file: Z:\Games\HADES\Content\Win\Packages\RangedWeapon.pkg -- rb (error: No such file or directory)
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:405    ERR| Package load failed RangedWeapon.pkg
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: RangedWeapon
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: BowSplitShot.pkg
+2025-07-20 15:52:52 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.00, BufferMaxLoad: 0.00
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: BowSplitShot
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:516   INFO| Loading package: BowWeapon.pkg
+2025-07-20 15:52:52 [GameAssetManagerLoadThread]   gameassetmanager.cpp:546   INFO| Package Loaded: BowWeapon
+2025-07-20 15:52:59 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:52:59 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Intro -> D_Hub
+2025-07-20 15:52:59 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.011597 s
+2025-07-20 15:52:59 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.014740 s
+2025-07-20 15:52:59 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 446345 bytes
+2025-07-20 15:52:59 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Hub
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000004
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:52:59 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 388454 bytes
+2025-07-20 15:52:59 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Hub
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003076
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:52:59 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:52:59 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:53:00 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:53:00 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:53:00 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:53:00 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:53:00 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.30
+2025-07-20 15:53:10 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:53:10 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:53:33 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:53:33 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Hub -> D_Mini01
+2025-07-20 15:53:33 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.014689 s
+2025-07-20 15:53:33 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.019530 s
+2025-07-20 15:53:33 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 485448 bytes
+2025-07-20 15:53:33 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini01
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:53:33 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 71262 bytes
+2025-07-20 15:53:33 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini01
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003922
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:53:33 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:53:33 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:53:33 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.02, BufferMaxLoad: 0.53
+2025-07-20 15:53:39 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:53:43 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:53:43 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.016006 s
+2025-07-20 15:53:43 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.020423 s
+2025-07-20 15:53:43 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 488632 bytes
+2025-07-20 15:53:44 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 0, CacheLoad: 0.01, BufferMaxLoad: 0.90
+2025-07-20 15:53:46 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:53:46 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini01 -> D_Mini04
+2025-07-20 15:53:46 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.014147 s
+2025-07-20 15:53:46 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.018751 s
+2025-07-20 15:53:46 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 474025 bytes
+2025-07-20 15:53:46 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini04
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:53:46 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 83171 bytes
+2025-07-20 15:53:46 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini04
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003536
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:53:46 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:53:46 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:53:46 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.00, BufferMaxLoad: 0.04
+2025-07-20 15:53:52 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:10 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 0, CacheLoad: 0.01, BufferMaxLoad: 0.90
+2025-07-20 15:54:11 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:11 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.018616 s
+2025-07-20 15:54:11 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.023366 s
+2025-07-20 15:54:11 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 478160 bytes
+2025-07-20 15:54:18 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:18 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini04 -> D_Mini13
+2025-07-20 15:54:18 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.015877 s
+2025-07-20 15:54:18 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.020767 s
+2025-07-20 15:54:18 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 478295 bytes
+2025-07-20 15:54:18 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini13
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:54:18 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 82817 bytes
+2025-07-20 15:54:18 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini13
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003527
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:54:18 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:54:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:54:18 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.47
+2025-07-20 15:54:28 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:28 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.016564 s
+2025-07-20 15:54:28 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.021194 s
+2025-07-20 15:54:28 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 478834 bytes
+2025-07-20 15:54:31 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:31 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini13 -> D_Mini04
+2025-07-20 15:54:31 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.013073 s
+2025-07-20 15:54:31 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.017315 s
+2025-07-20 15:54:31 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 479322 bytes
+2025-07-20 15:54:31 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini04
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000006
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:54:31 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 83171 bytes
+2025-07-20 15:54:31 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini04
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.001719
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:54:31 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:54:31 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:54:31 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.82
+2025-07-20 15:54:35 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:50 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 0, CacheLoad: 0.01, BufferMaxLoad: 0.90
+2025-07-20 15:54:50 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:50 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.017908 s
+2025-07-20 15:54:50 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.022806 s
+2025-07-20 15:54:50 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 476952 bytes
+2025-07-20 15:54:55 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:54:55 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini04 -> D_Combat02
+2025-07-20 15:54:55 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.013456 s
+2025-07-20 15:54:55 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.017570 s
+2025-07-20 15:54:55 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 477101 bytes
+2025-07-20 15:54:55 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Combat02
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:54:55 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 216795 bytes
+2025-07-20 15:54:55 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Combat02
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.004205
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:54:55 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:54:55 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:54:55 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.25
+2025-07-20 15:55:03 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:55:36 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 0, CacheLoad: 0.02, BufferMaxLoad: 0.90
+2025-07-20 15:56:07 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 0, CacheLoad: 0.02, BufferMaxLoad: 0.90
+2025-07-20 15:56:09 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:56:09 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.020973 s
+2025-07-20 15:56:09 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.026439 s
+2025-07-20 15:56:09 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 482370 bytes
+2025-07-20 15:56:17 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:56:17 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Combat02 -> D_Hub
+2025-07-20 15:56:17 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.018827 s
+2025-07-20 15:56:17 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.023963 s
+2025-07-20 15:56:17 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 491704 bytes
+2025-07-20 15:56:17 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Hub
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000004
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:56:17 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 388454 bytes
+2025-07-20 15:56:17 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Hub
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003708
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:56:17 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:56:17 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:56:17 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.02, BufferMaxLoad: 0.44
+2025-07-20 15:56:40 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:56:40 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Hub -> D_Mini10
+2025-07-20 15:56:40 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.019511 s
+2025-07-20 15:56:41 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.025259 s
+2025-07-20 15:56:41 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 491003 bytes
+2025-07-20 15:56:41 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini10
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:56:41 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 66481 bytes
+2025-07-20 15:56:41 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini10
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003643
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:56:41 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:56:41 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:56:41 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.02, BufferMaxLoad: 0.47
+2025-07-20 15:56:49 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:56:49 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.017428 s
+2025-07-20 15:56:49 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.022065 s
+2025-07-20 15:56:49 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 493224 bytes
+2025-07-20 15:56:53 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:56:53 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini10 -> D_Mini12
+2025-07-20 15:56:53 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.014106 s
+2025-07-20 15:56:53 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.018570 s
+2025-07-20 15:56:53 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 484341 bytes
+2025-07-20 15:56:53 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini12
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000007
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:56:53 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 78542 bytes
+2025-07-20 15:56:53 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini12
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.002662
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:56:53 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:56:53 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:56:53 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.87
+2025-07-20 15:56:58 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:02 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 0, CacheLoad: 0.01, BufferMaxLoad: 0.90
+2025-07-20 15:57:02 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:02 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.022635 s
+2025-07-20 15:57:02 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.028612 s
+2025-07-20 15:57:02 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 487025 bytes
+2025-07-20 15:57:05 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:05 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini12 -> D_Mini01
+2025-07-20 15:57:05 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.015372 s
+2025-07-20 15:57:05 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.019980 s
+2025-07-20 15:57:05 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 486638 bytes
+2025-07-20 15:57:05 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Mini01
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000006
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:57:05 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 71262 bytes
+2025-07-20 15:57:05 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Mini01
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.001562
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:57:05 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:57:05 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:57:05 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.29
+2025-07-20 15:57:13 [MainThread     ]              world.cpp:1548  INFO| World::Stop()
+2025-07-20 15:57:15 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:15 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.020522 s
+2025-07-20 15:57:15 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.025778 s
+2025-07-20 15:57:15 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 494139 bytes
+2025-07-20 15:57:18 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:18 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Mini01 -> D_Reprieve01
+2025-07-20 15:57:18 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.016576 s
+2025-07-20 15:57:18 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.021547 s
+2025-07-20 15:57:18 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 493391 bytes
+2025-07-20 15:57:18 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Reprieve01
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:57:18 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 121845 bytes
+2025-07-20 15:57:18 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Reprieve01
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003408
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:57:18 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:57:18 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:57:18 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.86
+2025-07-20 15:57:22 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:57:22 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:35 [NoName         ]     binarysavedata.cpp:13    INFO| Writing 9 bytes
+2025-07-20 15:57:35 [MainThread     ]              world.cpp:1483  INFO| World::Begin() D_Reprieve01 -> D_Hub
+2025-07-20 15:57:35 [MainThread     ]    progressmanager.cpp:682   INFO| Lua::Save() : 0.015261 s
+2025-07-20 15:57:35 [MainThread     ]    progressmanager.cpp:662   INFO| GatherSaveData : 0.019884 s
+2025-07-20 15:57:35 [MainThread     ]     binarysavedata.cpp:13    INFO| Writing 514187 bytes
+2025-07-20 15:57:35 [MainThread     ]       audiomanager.cpp:925    DBG| Unloading map banks
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1336  INFO| PreScriptLoad
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1338  INFO| PreScriptLoad Done
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1354   DBG| load packages took 0.000005
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1376   DBG| loadScriptsTask Done 
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1380   DBG| Finished Asset Loading 
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1298  INFO| Loading next map: D_Hub
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: Styx
+2025-07-20 15:57:36 [NoName         ]     binaryloaddata.cpp:11    INFO| Reading 388454 bytes
+2025-07-20 15:57:36 [NoName         ]       audiomanager.cpp:885    DBG| Loading map banks for: D_Hub
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1329   DBG| Map Load took 0.003553
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1387   DBG| Calling PostLoad
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: ZeusUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: HermesUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: StackUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AphroditeUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: DemeterUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AthenaUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: WeaponUpgrade
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: AresUpgrade
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1389   DBG| Finished PostLaod
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1391   DBG| Finished Asset Loading 
+2025-07-20 15:57:36 [NoName         ]              world.cpp:1396   DBG| end of postLoadTask
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RushWeapon
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: RangedWeapon
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowSplitShot
+2025-07-20 15:57:36 [GameAssetManagerLoadThread]   gameassetmanager.cpp:510    ERR| Package already loaded: BowWeapon
+2025-07-20 15:57:36 [RenderThread   ]     rendercommands.cpp:631   INFO| Resetting RenderMesh Caches. ResetRequest: 1, CacheLoad: 0.01, BufferMaxLoad: 0.82
+2025-07-20 15:57:38 [MainThread     ]              world.cpp:1548  INFO| World::Stop()
+2025-07-20 15:57:42 [MainThread     ]       audiomanager.cpp:155    DBG| AudioManager.reset
+2025-07-20 15:57:42 [MainThread     ]       audiomanager.cpp:3248   DBG| AudioManager.reset, excludeId = -1, fullWipe = true
+2025-07-20 15:57:52 [MainThread     ]     profilemanager.cpp:121   INFO| saveProfile()
+2025-07-20 15:57:52 [NoName         ]     profilemanager.cpp:90    INFO| beginning profile write
+2025-07-20 15:57:52 [NoName         ]     profilemanager.cpp:110   INFO| profile write done
+2025-07-20 15:57:52 [MainThread     ]                app.cpp:253    DBG| Shutting down
+2025-07-20 15:57:52 [MainThread     ]           ingameui.cpp:37    INFO| InGameUI Destroy
+2025-07-20 15:57:52 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: TooltipBody
+2025-07-20 15:57:52 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: TooltipHeader
+2025-07-20 15:57:52 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: TooltipBacking
+2025-07-20 15:57:52 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: TooltipBody
+2025-07-20 15:57:52 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: TooltipHeader
+2025-07-20 15:57:52 [MainThread     ] guicomponentreflectionh:83     DBG| Trying to remove component which was not reflected: TooltipBacking
+2025-07-20 15:57:52 [MainThread     ]             luaext.cpp:423   INFO| Lua interface destroyed

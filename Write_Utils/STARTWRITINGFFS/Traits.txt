@@ -1,0 +1,7 @@
+Strength
+Agility
+Dexterity
+Mobility
+Clausal Arts
+Vita-Capacity
+
